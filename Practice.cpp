@@ -5,7 +5,9 @@ using namespace std;
 int main()
 {
     int num1;
+    cout<<"Enter first number: ";
     cin>>num1;
+    cout<<"Enter second number: ";
     int num2;
     cin>>num2;
     int gcm=1;
