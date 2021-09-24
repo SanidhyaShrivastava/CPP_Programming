@@ -5,9 +5,9 @@ using namespace std;
 int main()
 {
     int num1;
-    cout<<"Enter first no.: ";
+    cout<<"Enter first number: ";
     cin>>num1;
-    cout<<"Enter second no.: ";
+    cout<<"Enter second number: ";
     int num2;
     cin>>num2;
     int gcm=1;
@@ -16,7 +16,8 @@ int main()
             gcm=i;
         }
     }
-    cout<<gcm;
+    cout<<"Greatest divisor of "<<num1<<" and "<<num2<<" is: "<<gcm;
+    
     
     
     return 0;
