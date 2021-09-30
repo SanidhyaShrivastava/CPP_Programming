@@ -1,18 +1,12 @@
 #include<iostream>
+#include<algorithm>
 using namespace std;
 
 
-void increment(int *a){
-    *++a;
-}
+
+
 
 int main()
 {
-   int b=3;
-
-  increment(&b);
-   cout<<b;
-    
-    
-    return 0;
+cout<<(1<<4)<<endl;
 }
