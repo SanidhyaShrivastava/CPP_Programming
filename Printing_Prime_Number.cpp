@@ -18,7 +18,7 @@ int main(){
             }
         }
         if(j==i){
-            cout<<i<<endl;
+            cout<<i<<" ";
         }
     }
 
